@@ -91,6 +91,109 @@
 .contain-about{
     display: inline-block;
     width: 900px;
-    height: 400px;
+    height: 600px;
+    margin-top: 0px;
+    padding-top: 0px;
     padding-left: 25px;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+.html-button{
+  width: 200px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  gap: 10px;
+  /* border: 1px solid black; */
+}
+
+/* .button : hover {
+
+} */
+/* .html-button :hover {
+  background-color: white;
+  color: black;
+  display: inline-block;
+} */
+
+.image-html{
+     /* display: flex;
+     align-items: center; */
+    width: 30px;
+    height:20px;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.html-name{
+  font-size: 15px;
+  align-items: center;
+}
+
+.button-container{
+  gap: 20px;
+}
+
+.html-button2{
+  margin-left: 50px;
+  width: 200px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  gap: 10px;
+}
+
+.html-button3{
+  margin-left: 50px;
+  width: 200px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  gap: 10px;
+}
+
+.contain1{
+  display: flex;
+  flex: colum;
+}
+
+.contain-about{
+  background-color: whitesmoke;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.html-button4{
+  margin-left: 50px;
+  width: 200px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.html-button:hover, .html-button2:hover, .html-button3:hover, .html-button4:hover {
+  background-color: white;
+  color: black;
+ 
+  transform: scale(1.1); 
+}
+
+.year1{
+  border-radius: 20px;
+  border-bottom: 20px;
+  background-color: silver;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  margin-left: 50px;
+  margin-top: 50px;
+  justify-content: center;
 }
