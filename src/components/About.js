@@ -66,6 +66,9 @@ I get across to people and adjust to changes with ease. I believe that a person 
         Education
         </h2>  <hr/>
           <div className='year1'>2022 - 2024</div>
+          <div className='=clg1'>
+            <h2>T JOHN College</h2>
+          </div>
 
 
       </div>

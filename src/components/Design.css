@@ -196,4 +196,54 @@
   margin-left: 50px;
   margin-top: 50px;
   justify-content: center;
+  display: inline-block;
+}
+
+.contain-contact{
+  display: inline-block;
+    width: 900px;
+    height: 600px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 25px;
+    overflow: hidden;
+    /* overflow: scroll; */
+    background-color: whitesmoke;
+}
+
+.map{
+  width: 30px;
+  height: 30px;
+  padding-right: 33px;
+}
+
+.btn-1{
+  background-color: whitesmoke;
+  color: black;
+  width:230px;
+  height: 100px;
+  /* display: flex; */
+  padding-left: 50px;
+  margin-left: 30px;
+}
+
+.contact-add{
+  /* display: flex;
+  justify-content: center; */
+  padding-top: 80px;
+  /* padding-left: 70px; */
+  /* gap : 30px; */
+}
+
+.btn-1:hover{
+  cursor: text;
+}
+
+.map-name{
+  padding-top: 15px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
 }
