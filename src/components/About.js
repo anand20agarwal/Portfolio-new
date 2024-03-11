@@ -65,18 +65,11 @@ I get across to people and adjust to changes with ease. I believe that a person 
       <h2>
         Education
         </h2>  <hr/>
+        <div className='clg'>
           <div className='year1'>2022 - 2024</div>
-          <div className='=clg1'>
-            <h2>T JOHN College</h2>
+            <h2 className='clg1'>T JOHN College</h2>
           </div>
-
-
-      </div>
-
-     
-      
-      
-    
+          </div>
   )
 }
 

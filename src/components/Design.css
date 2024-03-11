@@ -195,8 +195,9 @@
   display: flex;
   margin-left: 50px;
   margin-top: 50px;
+  align-items: center;
   justify-content: center;
-  display: inline-block;
+  position: relative;
 }
 
 .contain-contact{
@@ -247,3 +248,9 @@
   align-items: center;
   font-size: 15px;
 }
+
+.clg1{
+  display: inline-block;
+}
+
+
