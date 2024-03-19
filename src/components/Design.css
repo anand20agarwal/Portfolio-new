@@ -282,5 +282,55 @@
   margin-top: 25px;
   align-items: center;
   justify-content: center;
-  /* position: relative; */
+  position: relative;
 }
+
+.year3{
+  border-radius: 20px;
+  border-bottom: 20px;
+  background-color: silver;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  margin-left: 50px;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.clg2{
+  margin-left: 350px;
+  margin-right: 270px;
+ }
+
+ .clg3{
+  margin-left: 270px;
+  margin-right: 200px;
+ }
+
+ .clg-container2{
+  display: flex;
+  justify-content: center;
+ }
+
+ .clg-container3{
+  display: flex;
+  justify-content: center;
+ }
+
+ .m2{
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  color: darkgray;
+  margin-bottom: 20px;
+ }
+
+ .m3{
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  color: darkgray;
+  margin-bottom: 20px;
+ }

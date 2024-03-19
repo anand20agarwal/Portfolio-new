@@ -72,13 +72,23 @@ I get across to people and adjust to changes with ease. I believe that a person 
            <div className='m1'>Master Degree | MCA </div>
             </h2>
             <br/>
-            <div>
+          
+          </div>
+          <div className='clg-container2'>
             <div className='year2'>2019 - 2022</div>
-            <h2 className='clg1'>T JOHN College
+            <h2 className='clg2'>AMC
             <br/>
+            <div className='m2'>Bachelor Degree | BCA </div>
             </h2>
             </div>
-          </div>
+
+            <div className='clg-container3'>
+            <div className='year3'>2017 - 2019</div>
+            <h2 className='clg3'>Silicon City PU College
+            <br/>
+            <div className='m3'> 2nd PU | BASCs </div>
+            </h2>
+            </div>
           </div>
   )
 }
