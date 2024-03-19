@@ -334,3 +334,27 @@
   color: darkgray;
   margin-bottom: 20px;
  }
+
+ .contain-project{
+  display: inline-block;
+  width: 900px;
+  height: 600px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 25px;
+  overflow: hidden;
+  /* overflow: scroll; */
+  background-color: whitesmoke;
+  overflow: hidden;
+  overflow: scroll;
+ }
+
+ .para{
+  width: 800px;
+  word-spacing: 15px;
+  color: solid silver;
+ }
+
+ .pname:hover{
+  text-decoration: underline;
+ }
