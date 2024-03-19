@@ -28,6 +28,7 @@ function Contact() {
        <img src={PHONE} className='map' alt="/"></img>
         <div className='map-name'>+91 8892145195</div>
      </button>
+     
 
     </div>
     </div>

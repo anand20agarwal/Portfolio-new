@@ -65,9 +65,19 @@ I get across to people and adjust to changes with ease. I believe that a person 
       <h2>
         Education
         </h2>  <hr/>
-        <div className='clg'>
+        <div className='clg-container'>
           <div className='year1'>2022 - 2024</div>
-            <h2 className='clg1'>T JOHN College</h2>
+            <h2 className='clg1'>T JOHN College
+            <br/>
+           <div className='m1'>Master Degree | MCA </div>
+            </h2>
+            <br/>
+            <div>
+            <div className='year2'>2019 - 2022</div>
+            <h2 className='clg1'>T JOHN College
+            <br/>
+            </h2>
+            </div>
           </div>
           </div>
   )
