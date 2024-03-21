@@ -7,7 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Project from './components/Project';
 import Navbar from './components/Navbar';
-import IMG from './components/IMG.gif'
+import IMG from './components/IMG.jpg'
 import './components/Design.css'
 
 

@@ -1,12 +1,16 @@
 import React from 'react'
 import './Design.css'
 import MAP from './Map.jpg'
-import MAIL from './MAIL.png'
+import MAIL from './MAIL.gif'
 import PHONE from './PHONE.png'
+// import IMG from './About.gif'
 
 function Contact() {
   return (
+    <>
+    {/* <img src={IMG} className='image' alt='/' /> */}
     <div className='contain-contact'>
+        
       <br/>
       <br/>
       <hr/>
@@ -32,6 +36,7 @@ function Contact() {
 
     </div>
     </div>
+    </>
   )
 }
 

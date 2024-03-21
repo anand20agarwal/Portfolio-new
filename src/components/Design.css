@@ -54,6 +54,7 @@
     padding-top: 25px;
     display:inline-block;
     align-items: center;
+    /* display: flex; */
 }
 
 .about-h{
@@ -210,6 +211,7 @@
     overflow: hidden;
     /* overflow: scroll; */
     background-color: whitesmoke;
+    /* display: flex; */
 }
 
 .map{

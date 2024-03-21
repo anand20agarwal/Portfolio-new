@@ -7,10 +7,14 @@ import REACT from './React.png'
 import SQL from './SQL.png'
 import GITHUB from './GITHUB.jpg'
 import GIT from './GIT.png'
+// import IMG from './About.gif'
 
 function About() {
   return (
+    <>
+    {/* <img src={IMG} className='image' alt='/' />  */}
     <div className='contain-about'>
+      
       <hr/>
       {/* <div className='about'> */}
         <h3 className='about-h'> About Me</h3>
@@ -90,6 +94,8 @@ I get across to people and adjust to changes with ease. I believe that a person 
             </h2>
             </div>
           </div>
+          </>
+
   )
 }
 
