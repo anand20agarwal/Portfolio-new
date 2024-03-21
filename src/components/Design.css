@@ -358,3 +358,7 @@
  .pname:hover{
   text-decoration: underline;
  }
+
+ .body{
+  transition: ease;
+ }
