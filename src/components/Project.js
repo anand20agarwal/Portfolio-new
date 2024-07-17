@@ -30,7 +30,11 @@ function Project() {
  accomplishments, and completed works. It includes diverse samples, such
  as websites, designs, or writing pieces, demonstrating technical expertise
  and creativity</p>
-
+<br/>
+<h2 className='pname'> BMI Calculator</h2>
+      <p className='para'>  I developed a BMI calculator using HTML, CSS, and JavaScript, 
+          which accurately calculates and categorizes BMI based on user input. The project features 
+          a responsive design, ensuring seamless usability across various devices.</p>
      </div>
     </div>
   )
