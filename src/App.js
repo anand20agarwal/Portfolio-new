@@ -14,6 +14,7 @@ import './components/Design.css'
 function App() {
   return (
     <BrowserRouter>
+    <div>
       <Navbar />
       <img src={IMG} className='image' alt='/' />
       <Routes>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/project" element={<Project />} />
       </Routes>
+      </div>
     </BrowserRouter>
   );
 }
