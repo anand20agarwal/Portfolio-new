@@ -1,7 +1,7 @@
 // App.js
 
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -13,7 +13,7 @@ import './components/Design.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div>
       <Navbar />
       <img src={IMG} className='image' alt='/' />
@@ -24,7 +24,7 @@ function App() {
         <Route path="/project" element={<Project />} />
       </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
