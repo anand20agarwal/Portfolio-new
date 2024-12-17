@@ -9,7 +9,7 @@ import IMG from './components/IMG.jpg';
 import './components/Design.css';
 
 function App() {
-  return (
+  return (  
     <HashRouter>
       <div>
         <Navbar />
