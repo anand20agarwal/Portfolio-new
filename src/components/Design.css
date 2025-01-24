@@ -1,366 +1,255 @@
+/* Main body container */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
 /* Navbar container */
 .navbar {
-    background-color: #333; /* Change the background color as needed */
-    padding: 15px 15px; /* Adjust padding as needed */
-    display: flex;
-    justify-content: center; /* Align items to the left */
-  }
-  
-  /* Navbar list */
-  .navbar-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0px;
-    display: flex;
-    gap: 20px;
-    align-items: center; /* Center items vertically */
-  }
-  
-  
-  /* Navbar list items */
-  .navbar-item {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 30px; /* Adjust spacing between items as needed */
-  }
-  
-  /* Navbar link */
-  .navbar-link {
-    color: #fff; /* Link text color */
-    text-decoration: none;
-    font-size: 17px; /* Adjust font size as needed */
-  }
-  
-  /* Navbar link hover */
-  .navbar-link:hover {
-    color: #ff0; /* Change link color on hover */
-  }
-  
-
-.image{
-    width: 500px;
-    height: 600px;
-    margin-left: 20px;
-    display: flex;
-    justify-content: left;
-    /* background-color: whitesmoke; */
-    display:inline-block;
-    padding-top: 20px;
-
+  background-color: #333;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
 }
 
-.contain{
-    display: flex;
-    padding-top: 25px;
-    display:inline-block;
-    align-items: center;
-    /* display: flex; */
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-.about-h{
-    font-size: 25px;
+.navbar-item {
+  font-size: 18px;
 }
 
-.about-para{
-    font-size: 17px;
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
 }
 
-.text{
-    padding-left: 50px;
-    padding-top: 150px;
-    padding-bottom: 210px;
-    letter-spacing: 10px;
-    font-size: 50px;
-    /* display: inline-block; */
-    border-radius: 5px solid;
+.navbar-link:hover {
+  color: #ff0;
+}
+
+/* Main image (Portfolio background) */
+.image {
+  width: 400px;  /* Increased image size */
+  height: 400px; /* Increased image size */
+  border-radius: 50%;
+  margin-top: 100px;   /* Moves the image 100px down */
+  margin-left: 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* Main container that holds image and content side by side */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+/* Content section (Next to image) */
+.content {
+  flex: 1;
+  margin-left: 20px;
+}
+
+/* Container for Home page */
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.text {
+  font-size: 50px;
+  letter-spacing: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  border-right: 3px solid black; /* Adding a cursor effect */
+  animation: typing 5s steps(35) 1s forwards, cursor 0.4s step-end infinite alternate;
+}
+
+/* Typing animation for showing text letter by letter */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
     width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: 
-    typing 2s steps(35),
-    cursor .4s step-end infinite alternate;
+  }
 }
 
 @keyframes cursor {
-    50% { border-color: transparent}
+  50% {
+    border-color: transparent;
+  }
 }
 
-@keyframes typing {
-    from { width : 0}
+/* About Section */
+.contain-about {
+  padding: 20px;
+  background-color: #fff;
+  max-height: 600px;  /* Set a maximum height for the section */
+  overflow-y: auto;   /* Enables vertical scroll when content exceeds height */
+  margin-bottom: 100px; /* Adds a bottom margin to keep it spaced properly */
 }
 
-.contain-about{
-    display: inline-block;
-    width: 900px;
-    height: 600px;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-left: 25px;
-    overflow: hidden;
-    overflow: scroll;
+.about-h {
+  font-size: 25px;
+  text-align: center;
 }
 
-.html-button{
-  width: 200px;
-  height: 70px;
-  background-color: black;
-  color: white;
-  display: inline-block;
-  gap: 10px;
-  /* border: 1px solid black; */
+.about-para {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-top: 20px;
+  text-align: justify;
 }
 
-/* .button : hover {
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
 
-} */
-/* .html-button :hover {
+.html-button, .html-button2, .html-button3, .html-button4 {
   background-color: white;
   color: black;
-  display: inline-block;
-} */
-
-.image-html{
-     /* display: flex;
-     align-items: center; */
-    width: 30px;
-    height:20px;
-    display: inline-block;
-    align-items: center;
-
-}
-
-.html-name{
-  font-size: 15px;
-  align-items: center;
-}
-
-.button-container{
-  gap: 20px;
-}
-
-.html-button2{
-  margin-left: 50px;
-  width: 200px;
-  height: 70px;
-  background-color: black;
-  color: white;
-  display: inline-block;
-  gap: 10px;
-}
-
-.html-button3{
-  margin-left: 50px;
-  width: 200px;
-  height: 70px;
-  background-color: black;
-  color: white;
-  display: inline-block;
-  gap: 10px;
-}
-
-.contain1{
+  padding: 20px;
   display: flex;
-  flex: colum;
-}
-
-.contain-about{
-  background-color: whitesmoke;
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
-.html-button4{
-  margin-left: 50px;
-  width: 200px;
-  height: 70px;
-  background-color: black;
-  color: white;
-  display: inline-block;
+  align-items: center;
   gap: 10px;
-  margin-top: 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 .html-button:hover, .html-button2:hover, .html-button3:hover, .html-button4:hover {
-  background-color: white;
-  color: black;
- 
-  transform: scale(1.1); 
+  background-color: white;  /* Make background white */
+  color: black;  /* Make text black */
+  transform: scale(1.1);  /* Slightly enlarge the button on hover */
 }
 
-.year1{
-  border-radius: 20px;
-  border-bottom: 20px;
-  background-color: silver;
-  width: 100px;
-  height: 25px;
-  display: flex;
-  margin-left: 50px;
-  margin-top: 25px;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.contain-contact{
-  display: inline-block;
-    width: 900px;
-    height: 600px;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-left: 25px;
-    overflow: hidden;
-    /* overflow: scroll; */
-    background-color: whitesmoke;
-    /* display: flex; */
-}
-
-.map{
+.image-html {
   width: 30px;
-  height: 30px;
-  padding-right: 33px;
+  height: 20px;
 }
 
-.btn-1{
-  background-color: whitesmoke;
-  color: black;
-  width:230px;
-  height: 100px;
-  /* display: flex; */
-  padding-left: 50px;
-  margin-left: 30px;
-}
-
-.contact-add{
-  /* display: flex;
-  justify-content: center; */
-  padding-top: 80px;
-  /* padding-left: 70px; */
-  /* gap : 30px; */
-}
-
-.btn-1:hover{
-  cursor: text;
-}
-
-.map-name{
-  padding-top: 15px;
-  padding-right: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.html-name {
   font-size: 15px;
 }
 
-.clg1{
- padding-left: 300px;
-}
-
-.clg-container{
-  display: flex;
-  
-}
-
-.m1{
-  font-size: 10px;
+/* Education Section */
+.clg-container, .clg-container2, .clg-container3 {
   display: flex;
   justify-content: center;
-  color: darkgray;
-  margin-bottom: 20px;
+  gap: 20px;
+  margin-top: 30px;
 }
 
-.h2{
-  padding-left: 50px;
-}
-
-
-.year2{
-  border-radius: 20px;
-  border-bottom: 20px;
+.year1, .year2, .year3 {
   background-color: silver;
+  border-radius: 20px;
   width: 100px;
   height: 25px;
   display: flex;
-  margin-left: 50px;
-  margin-top: 25px;
-  align-items: center;
   justify-content: center;
-  position: relative;
+  align-items: center;
+  font-size: 14px;
 }
 
-.year3{
-  border-radius: 20px;
-  border-bottom: 20px;
-  background-color: silver;
-  width: 100px;
-  height: 25px;
-  display: flex;
-  margin-left: 50px;
-  margin-top: 25px;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+.clg1, .clg2, .clg3 {
+  font-size: 18px;
 }
 
-.clg2{
-  margin-left: 350px;
-  margin-right: 270px;
- }
-
- .clg3{
-  margin-left: 270px;
-  margin-right: 200px;
- }
-
- .clg-container2{
-  display: flex;
-  justify-content: center;
- }
-
- .clg-container3{
-  display: flex;
-  justify-content: center;
- }
-
- .m2{
-  font-size: 10px;
-  display: flex;
-  justify-content: center;
-  color: darkgray;
-  margin-bottom: 20px;
- }
-
- .m3{
-  font-size: 10px;
-  display: flex;
-  justify-content: center;
-  color: darkgray;
-  margin-bottom: 20px;
- }
-
- .contain-project{
-  display: inline-block;
-  width: 900px;
-  height: 600px;
-  margin-top: 0px;
-  padding-top: 0px;
-  padding-left: 25px;
-  overflow: hidden;
-  /* overflow: scroll; */
+/* Contact Section */
+.contain-contact {
   background-color: whitesmoke;
-  overflow: hidden;
-  overflow: scroll;
- }
+  padding: 50px 25px;
+}
 
- .para{
-  width: 800px;
-  word-spacing: 15px;
-  color: solid silver;
- }
+.contact-add {
+  display: flex;
+  justify-content: space-evenly;
+}
 
- .pname:hover{
-  text-decoration: underline;
- }
+/* Ensure all images in contact section have the same size */
+.contact-add img {
+  width: 50px;  /* Set the size of all images */
+  height: 50px; /* Set the size of all images */
+  object-fit: cover; /* Ensures that images maintain aspect ratio and fill the set dimensions */
+}
 
- .body{
-  transition: ease;
- }
+.btn-1 {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-1:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+
+.map-name {
+  font-size: 15px;
+}
+
+/* Project Section */
+.contain-project {
+  padding: 30px;
+  background-color: whitesmoke;
+  max-height: 600px;  /* Set a maximum height for the section */
+  overflow-y: auto;   /* Enables vertical scroll when content exceeds height */
+  margin-bottom: 100px; /* Adds a bottom margin to keep it spaced properly */
+}
+
+.pname {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+}
+
+.para {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* General Styling */
+h1, h2, h3 {
+  color: #333;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

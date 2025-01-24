@@ -13,13 +13,17 @@ function App() {
     <HashRouter>
       <div>
         <Navbar />
-        <img src={IMG} className="image" alt="Portfolio Background" />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/project" element={<Project />} />
-        </Routes>
+        <div className="main-container">
+          <img src={IMG} className="image" alt="Portfolio Background" />
+          <div className="content">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/project" element={<Project />} />
+            </Routes>
+          </div>
+        </div>
       </div>
     </HashRouter>
   );
